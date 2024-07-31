@@ -1,7 +1,17 @@
 import { useEffect } from "react"
 import * as requester from "../../api/requester"
+import gamesAPI from '../../api/games-api'
 
 export default function Home() {
+
+    /*useEffect(() => {
+        (async () => {
+            //const gamesResult = await requester('GET','https://localhost:3030/jsonstore/games/' )
+            
+            const gamesResult = await requester.get('https://localhost:3030/jsonstore/games/');
+            console.log(gamesResult);
+        })();
+    })*/
 
     useEffect(() => {
         (async () => {
