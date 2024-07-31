@@ -7,3 +7,11 @@ export const getAll = async () => {
     const games = Object.values(result);
     return games;
 } 
+
+export const getOne = (gameId) => requester.get(`${BASE_URL}/${gameId}`)
+const gamesAPI = {
+    getAll,
+    getOne,
+}
+
+export default gamesAPI;

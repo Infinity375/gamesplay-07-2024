@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
-import * as requester from "../../api/requester"
+
 import * as gamesAPI from '../../api/games-api'
+
 import GameListItem from "./game-list-item/GameListItem"
 
 export default function Home() {

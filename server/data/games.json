@@ -10,9 +10,17 @@
     "2c1acc82-c1d1-4dc2-850c-c48feb0bc7ea": {
         "title": "EVE Online",
         "category": "Space Simulator",
-        "maxLevel": "1{0}",
+        "maxLevel": "10",
         "imageUrl": "https://cdn1.epicgames.com/spt-assets/184ac184bcba45c585fffaed03337844/eve-online-1093d.jpg",
         "summary": "EVE Online is a free-to-play community driven space MMO where players can choose their own path from countless different options. Experience space exploration, immense PvP and PvE battles, mining, industry and a thriving player economy in an ever-expanding sandbox.",
         "_id": "2c1acc82-c1d1-4dc2-850c-c48feb0bc7ea"
+    },
+    "f3a5770e-c5b0-4ede-a5b1-c7ef615b0aef": {
+        "title": "World of Warcraft",
+        "category": "MMORPG",
+        "maxLevel": "11",
+        "imageUrl": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/world-of-warcraft/1/11/WoW_Logo.png",
+        "summary": "Miniature Heroes. Colossal Fun. Engage in a dazzling new sensation that's sweeping the inns and taverns across the land with this action-packed mobile strategy",
+        "_id": "f3a5770e-c5b0-4ede-a5b1-c7ef615b0aef"
     }
 }
