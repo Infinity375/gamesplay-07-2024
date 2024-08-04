@@ -15,7 +15,9 @@ const getAll = async (gameId) => {
     return comments;
 }
 
-export default {
+const commentAPI = {
     create,
     getAll
 }
+
+export default commentAPI;
