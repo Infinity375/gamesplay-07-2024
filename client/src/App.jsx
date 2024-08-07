@@ -8,6 +8,7 @@ import Register from './components/register/Register'
 import GameList from './components/game-list/GameList'
 import GameDetails from './components/game-details/GameDetails'
 import GameCreate from './components/game-create/GameCreate'
+
 import { AuthContext } from './contexts/AuthContext'
 
 function App() {
@@ -39,11 +40,7 @@ function App() {
             <Route path='/games' element={<GameList />} />
             <Route path='/games/:gameId/details' element={<GameDetails />} />
             <Route path='/games/create' element={<GameCreate />} />
-
-
           </Routes>
-
-
         </main>
 
       </div>
