@@ -2,21 +2,26 @@
 
 async function requester(method, url, data) {
     const options = {};
-    
-    if(method != 'GET'){
+
+    if (method != 'GET') {
         options.method = method;
-    } 
-    
-    if(data){
+    }
+
+    if (data) {
         options.headers = {
-            'Content-Type' : 'application/json'
+            'Content-Type': 'application/json'
         }
         options.body = JSON.stringify(data);
     }
-    
-    const response = await fetch (url,options); 
-    const result = response.json();
-    return result; 
+
+    const response = await fetch(url, options);
+    const result = await response.json();
+    if (!response.ok) {
+        console.log(response);
+        throw result;
+    }
+
+    return result;
 }
 
 export const get = requester.bind(null, 'GET');
